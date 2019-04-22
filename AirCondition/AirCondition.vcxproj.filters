@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lcd1602.cpp">
+      <Filter>LCD1602</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="LCD1602">
+      <UniqueIdentifier>{b948de4c-68d5-4631-a6ad-16496c990989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DS18B20">
+      <UniqueIdentifier>{f2a7178e-66de-4887-9fb9-c59abed8a36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DHT11">
+      <UniqueIdentifier>{639e8ae1-13f3-44c9-8adf-81c15b9e60e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LEDMatrix">
+      <UniqueIdentifier>{f13d91de-04e2-4c3d-915a-5b6eae634269}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lcd1602.h">
+      <Filter>LCD1602</Filter>
+    </ClInclude>
+    <ClInclude Include="ds18b20.h">
+      <Filter>DS18B20</Filter>
+    </ClInclude>
+    <ClInclude Include="dht11.h">
+      <Filter>DHT11</Filter>
+    </ClInclude>
+    <ClInclude Include="lcdmatrix.h">
+      <Filter>LEDMatrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
