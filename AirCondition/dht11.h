@@ -2,4 +2,4 @@
 namespace dht11
 {
 
-};
+}
